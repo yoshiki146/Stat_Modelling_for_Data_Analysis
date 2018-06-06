@@ -1,0 +1,2 @@
+# Stat_Modelling_for_Data_Analysis
+データ解析のための統計モデリング入門(久保拓弥)
