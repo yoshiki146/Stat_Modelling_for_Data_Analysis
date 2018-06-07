@@ -47,4 +47,3 @@ for (i in 1:k){
 h <- hist(lambda_pred)
 h$counts = h$counts/sum(h$counts)
 plot(h)
-curve()
