@@ -15,6 +15,8 @@ ggplot(dat, aes(x,y)) +
   geom_smooth(method='glm', method.args=list(family='poisson'), se=F) + # see more below
   labs(x='x, size', y='y, nr seeds', colour='f, fertiliser') + 
   NULL #  Ending with NULL is useful when exploring data. browseURL('https://qiita.com/Atsushi776/items/3c5bb75b0b1fe4c2a543')
+## y: non-negative integer, variance of y increases as E[y] increases
+
 # box plot (f and y)
 ggplot(dat, aes(f, y)) +
   geom_boxplot() +
